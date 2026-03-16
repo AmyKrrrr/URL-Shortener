@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-amy",
+  "version": "1.0.0",
+  "description": "A URL Shortner service that takes in a valid URL and returns a shortened URL, redirecting the user to the previously provided URL.",
+  "homepage": "https://github.com/AmyKrrrr/URL-Shortener#readme",
+  "bugs": {
+    "url": "https://github.com/AmyKrrrr/URL-Shortener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmyKrrrr/URL-Shortener.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "nanoid": "^5.1.7",
+    "nodemon": "^3.1.14",
+    "short-id": "^0.1.0-1"
+  }
+}
